@@ -1,0 +1,16 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+addressbook
+addressbook.exe
+*.exe
+*.out
+
+# Debug & Temporary files
+*.dSYM/
+*.vscode/
+.idea/
+*.swp
+*~
