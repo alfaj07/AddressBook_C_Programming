@@ -102,7 +102,7 @@ You will need a C compiler installed on your system:
 1. Open your terminal in the project directory.
 2. Compile all source files:
    ```bash
-   gcc main.c contact.c validate.c file.c populate.c -o addressbook
+   gcc *
    ```
 3. Run the executable:
    ```bash
@@ -119,7 +119,17 @@ You will need a C compiler installed on your system:
    ```cmd
    addressbook.exe
    ```
+### Option 3: On Linux or WSL (Recommended)
 
+1. Open your terminal in the project directory.
+2. Compile all source files:
+   ```bash
+   gcc main.c contact.c validate.c file.c populate.c -o addressbook
+   ```
+3. Run the executable:
+   ```bash
+   ./addressbook
+   ```
 ---
 
 ## 🖥️ Usage & Menu Options
